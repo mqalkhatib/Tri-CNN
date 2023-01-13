@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Created on Mon Feb  7 09:21:37 2022
 
@@ -129,59 +128,5 @@ def Patch(data,height_index,width_index, PATCH_SIZE):
     patch = data[height_slice, width_slice, :]
     
     return patch
-
-def getTrainTestSplit(X, y, pxls_num):
-    if type(pxls_num) != list:
-        pxls_num = [pxls_num]*len(np.unique(y))
-        
-    if len(np.unique(y)) != len(pxls_num):
-        print("length of pixels list doen't match the number of classes in the dataset")
-        return
-    else:
-        xTrain = []
-        yTrain = []
-        xTest  = []
-        yTest  = []
-        for i in range(len(np.unique(y))):
-            if pxls_num[i] > len(y[y==i]):
-                print("Number of training pixles is larger than total class pixels")
-                return
-            else:
-                random.seed(123) #optional to reproduce the data
-                samples = random.sample(range(len(y[y==i])), pxls_num[i])
-                xTrain.extend(X[y==i][samples])
-                yTrain.extend(y[y==i][samples])
-                
-                tmp1 = list(X[y==i])
-                tmp2 = list(y[y==i])
-                for ele in sorted(samples, reverse = True):
-                    del tmp1[ele]
-                    del tmp2[ele]
-                xTest.extend(tmp1)
-                yTest.extend(tmp2)
-     
-  
-    xTrain, yTrain = shuffle(xTrain, yTrain, random_state=321)  
-    xTest, yTest = shuffle(xTest, yTest, random_state=345) 
-    
-    return np.array(xTrain), np.array(xTest), np.array(yTrain) , np.array(yTest)
-        
-        
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
