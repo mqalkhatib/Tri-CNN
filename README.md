@@ -8,8 +8,10 @@ In our experiments, two of the most commonly used HSI datasets are adopted, name
 python 3.8, Tensorflow 2.4.0
 
 # Results
-To quantitavel measure the proposed Tri-CNN model, three evaluation metrics are employed to verify the effectiveness of the algorithm, including Overall Accuracy (OA), Average Accuracy (AA) and Cohen's Kappa (k).
+To quantitatively measure the proposed Tri-CNN model, three evaluation metrics are employed to verify the effectiveness of the algorithm, including Overall Accuracy (OA), Average Accuracy (AA) and Cohen's Kappa (k).
 ![image](https://user-images.githubusercontent.com/49251659/212429883-7f80d5e0-3b14-4733-b444-6201c9178de1.png)
+
+Model was qualitatively evaluated by visually comparing the resulting class maps.
 ![image](https://user-images.githubusercontent.com/49251659/212430170-9cf311ba-967c-4105-86d6-59ee3a6c1268.png)
 
 # Citation
