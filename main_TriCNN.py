@@ -1,11 +1,6 @@
 '''
 Code implementation of "Tri-CNN: A Three Branch Model for Hyperspectral Image Classification"
 
-to cite:
-    Alkhatib, M.Q.; Al-Saad, M.; Aburaed, N.; Almansoori, S.; Zabalza, J.; 
-    Marshall, S.; Al-Ahmad, H. Tri-CNN: A Three Branch Model for Hyperspectral 
-    Image Classification. Remote Sens. 2023, 15, 316. https://doi.org/10.3390/rs15020316
-
 Mohammed Q. Alkhatib (mqalkhatib@ieee.org)    
 '''
 
