@@ -7,4 +7,17 @@ In our experiments, two of the most commonly used HSI datasets are adopted, name
 # Requirements
 python 3.8, Tensorflow 2.4.0
 
-# Training 
+# Results
+To quantitavel measure the proposed Tri-CNN model, three evaluation metrics are employed to verify the effectiveness of the algorithm, including Overall Accuracy (OA), Average Accuracy (AA) and Cohen's Kappa (k).
+![image](https://user-images.githubusercontent.com/49251659/212429883-7f80d5e0-3b14-4733-b444-6201c9178de1.png)
+![image](https://user-images.githubusercontent.com/49251659/212430170-9cf311ba-967c-4105-86d6-59ee3a6c1268.png)
+
+# Citation
+@Article{Alkhatib2023Tri,
+AUTHOR = {Alkhatib, Mohammed Q. and Al-Saad, Mina and Aburaed, Nour and Almansoori, Saeed and Zabalza, Jaime and Marshall, Stephen and Al-Ahmad, Hussain},
+TITLE = {Tri-CNN: A Three Branch Model for Hyperspectral Image Classification},
+JOURNAL = {Remote Sensing},
+VOLUME = {15},
+YEAR = {2023},
+NUMBER = {2},
+}
