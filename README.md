@@ -1,6 +1,9 @@
 # Tri-CNN
 This is an implementation of "Tri-CNN: A Three Branch Model for Hyperspectral Image Classification"
 
+![image](https://user-images.githubusercontent.com/49251659/212431166-7cb31eba-9ec9-4742-a19b-5f77485508d1.png)
+
+
 # Datasets
 In our experiments, two of the most commonly used HSI datasets are adopted, namely, Pavia University and Salinas. Additionally, the Gulfport of Mississippi dataset is also used as well, although that it has not been widely used for HSI classification tasks, it is of great interest as it is small in size and consists of 72 spectral bands only.
 
