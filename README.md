@@ -5,7 +5,7 @@ This is an implementation of "Tri-CNN: A Three Branch Model for Hyperspectral Im
 
 
 # Datasets
-In our experiments, two of the most commonly used HSI datasets are adopted, namely, Pavia University and Salinas. Additionally, the Gulfport of Mississippi dataset is also used as well, although that it has not been widely used for HSI classification tasks, it is of great interest as it is small in size and consists of 72 spectral bands only.
+In our experiments, two of the most commonly used HSI datasets are adopted, namely, Pavia University and Salinas. Additionally, the Gulfport of Mississippi dataset is also used as well, although that it has not been widely used for HSI classification tasks, it is of great interest as it is small in size and consists of 72 spectral bands only. The Pavia University and Salinas datasets can be collected from https://www.ehu.eus/ccwintco/index.php/Hyperspectral_Remote_Sensing_Scenes. We added the Gulfport of Mississippi to the repository.
 
 # Requirements
 python 3.8, Tensorflow 2.4.0, Spyder IDE
