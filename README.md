@@ -30,4 +30,4 @@ Model was qualitatively evaluated by visually comparing the resulting class maps
 }
 
 
-If you has any questions, please send e-mail to mqalkhatib@ieee.org
+If you have any questions, please send e-mail to mqalkhatib@ieee.org
